@@ -70,9 +70,7 @@ public class PlayerBehaviour : MonoBehaviour
     {
         if(other.tag == "Plane" || other.tag == "Enemy")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            transform.position = new Vector3(initialX,initialY,initialZ);
-            transform.eulerAngles = new Vector3(initialRotX, initialRotY, initialRotZ);
+            SceneManager.LoadScene("GameOver");
         }
     }
 }
