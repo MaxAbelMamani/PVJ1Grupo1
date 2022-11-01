@@ -16,9 +16,6 @@ public class PlayerBehaviour : MonoBehaviour
     public Vector3 jump;
     private Rigidbody rb = null;
     public TextMeshProUGUI message;
-
-    public GameObject GameOver;
-    public GameObject Camera;
     
     // Start is called before the first frame update
     void Start()
@@ -73,8 +70,7 @@ public class PlayerBehaviour : MonoBehaviour
     {
         if(other.tag == "Plane" || other.tag == "Enemy")
         {
-            Camera.transform.parent = null;
-            GameOver.SetActive(true);
+            SceneManager.LoadScene("GameOver");
         }
     }
 }
