@@ -16,6 +16,7 @@ public class PlayerBehaviour : MonoBehaviour
     public Vector3 jump;
     private Rigidbody rb = null;
     public TextMeshProUGUI message;
+    public Transform groundPoint;
     
     // Start is called before the first frame update
     void Start()
@@ -36,7 +37,7 @@ public class PlayerBehaviour : MonoBehaviour
         message.text = "Consejo: pulsa E para agarrar y Q para soltar.";
         
     }
-    private void OnCollisionStay(Collision collision)
+    /*private void OnCollisionStay(Collision collision)
     {
         OnGround = true;
     }
@@ -44,6 +45,7 @@ public class PlayerBehaviour : MonoBehaviour
     private void OnCollisionExit(Collision collision) {
         OnGround = false;
     }
+    */
 
     // Update is called once per frame
     void Update()
@@ -62,6 +64,19 @@ public class PlayerBehaviour : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) == true && OnGround == true)
         {
             rb.AddForce(jump * JumpForce, ForceMode.Impulse);
+            OnGround = false;
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        //Debug.DrawRay(groundPoint.position, groundPoint.TransformDirection(Vector3.down) * 0.5f, Color.green);
+        if (Physics.Raycast(groundPoint.position, groundPoint.TransformDirection(Vector3.down), 0.5f))
+        {
+            OnGround = true;
+        }
+        else
+        {
             OnGround = false;
         }
     }
