@@ -62,7 +62,7 @@ public class PlayerBehaviour : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) == true && OnGround == true)
         {
             rb.AddForce(jump * JumpForce, ForceMode.Impulse);
-            OnGround = false;
+           OnGround = false;
         }
     }
 
