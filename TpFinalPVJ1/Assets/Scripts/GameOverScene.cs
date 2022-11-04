@@ -6,13 +6,19 @@ using TMPro;
 public class GameOverScene : MonoBehaviour
 {
     public TextMeshProUGUI gameOverText;
+    public TextMeshProUGUI timeText;
     public float maxSizeText;
+    private float time;
 
     void Start()
     {
         StartCoroutine("GameOverSize");
+        timeText.text = "Tiempo:" + time.ToString("F2");
     }
-
+    void OnEnable()
+    {
+        time = PlayerPrefs.GetFloat("time");
+    }
     IEnumerator GameOverSize()
     {
         for (float f = 0f; f <= 3; f += 0.005f)
