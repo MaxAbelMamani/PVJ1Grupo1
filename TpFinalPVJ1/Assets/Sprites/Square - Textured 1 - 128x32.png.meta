@@ -1,0 +1,987 @@
+fileFormatVersion: 2
+guid: 39edd749c2e1e1d44a38f7bdebe6c3ed
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47562fdcbb3ba4e4b9541959cfdbaf50
+      internalID: -620463916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d790248b4d1d7e4e8c91bc295341f37
+      internalID: 1605801116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82167077045e374689cc402767115fc
+      internalID: -701556873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423ab4b77d158114094114ce302b7ca5
+      internalID: 46800456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39991e9d400612843bf8a6ce5fd00191
+      internalID: -1386941471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f780ba2a711904d8771fb6f65ffa81
+      internalID: -676485187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb00a49439292be4690ff0b84b8cf414
+      internalID: -2069682090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c55f91c3f9175a499a06bbeac34d53d
+      internalID: 830523745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484e6633bb011c841a3f4cbcaee251ba
+      internalID: -1801638768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9dd215664ae544086393738ac22943
+      internalID: 1725444635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978dbce23bff61247b255d9b3d11fe14
+      internalID: 798806982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2873aa652eff0574bb19c2f8a34818b1
+      internalID: -635252483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3635bf62c718a164290c3c0369358c35
+      internalID: 1507153375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb56b11df6bb16040a7f92d49c4116a9
+      internalID: 1778311161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d67ab2087e2f24489027ff9896ec855
+      internalID: 1557255933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4ef6055cf0b63499aa25698ad46275
+      internalID: -14186879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea637c0bca6c1246bf884978104ca13
+      internalID: 1435671644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851dd8a4319a605458416dd0bd93bfc6
+      internalID: 993217721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1037896eb05168e45b553f56da866e90
+      internalID: -1260212462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48166a41fcd6bc649817ea46ba31a339
+      internalID: -173557483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26725aafc2393af48b7a70e2a055fbeb
+      internalID: -904772572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1235e10ac2b254b947dc86569ba584
+      internalID: -458660551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9f705868cd77a4bad8671bac6ef16b
+      internalID: -1648476093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36b8bb8cb303a1439a515c8fd6e8566
+      internalID: 509733563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f550666b44c567b439167a45e31ed63e
+      internalID: -1665672730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc72593501f8e3a4aad52212783071ee
+      internalID: 27471428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5857e8f86184dd0498147d0ec18f7fbc
+      internalID: -1038196762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Square - Textured 1 - 128x32_27
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      physicsShape:
+      - - {x: 0, y: -16}
+        - {x: 64, y: 0}
+        - {x: 0, y: 16}
+        - {x: -64, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20be755e4921702469672dea7d7ab074
+      internalID: -36790793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7b49a43cd54b2ff4d99191cbe36fd1bb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Square - Textured 1 - 128x32_2: -701556873
+      Square - Textured 1 - 128x32_4: -1386941471
+      Square - Textured 1 - 128x32_22: -1648476093
+      Square - Textured 1 - 128x32_13: 1778311161
+      Square - Textured 1 - 128x32_0: -620463916
+      Square - Textured 1 - 128x32_14: 1557255933
+      Square - Textured 1 - 128x32_27: -36790793
+      Square - Textured 1 - 128x32_17: 993217721
+      Square - Textured 1 - 128x32_5: -676485187
+      Square - Textured 1 - 128x32_15: -14186879
+      Square - Textured 1 - 128x32_16: 1435671644
+      Square - Textured 1 - 128x32_1: 1605801116
+      Square - Textured 1 - 128x32_11: -635252483
+      Square - Textured 1 - 128x32_7: 830523745
+      Square - Textured 1 - 128x32_9: 1725444635
+      Square - Textured 1 - 128x32_6: -2069682090
+      Square - Textured 1 - 128x32_8: -1801638768
+      Square - Textured 1 - 128x32_20: -904772572
+      Square - Textured 1 - 128x32_21: -458660551
+      Square - Textured 1 - 128x32_25: 27471428
+      Square - Textured 1 - 128x32_19: -173557483
+      Square - Textured 1 - 128x32_18: -1260212462
+      Square - Textured 1 - 128x32_26: -1038196762
+      Square - Textured 1 - 128x32_24: -1665672730
+      Square - Textured 1 - 128x32_23: 509733563
+      Square - Textured 1 - 128x32_10: 798806982
+      Square - Textured 1 - 128x32_3: 46800456
+      Square - Textured 1 - 128x32_12: 1507153375
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

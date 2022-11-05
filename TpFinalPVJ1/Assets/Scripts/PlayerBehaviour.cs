@@ -16,6 +16,8 @@ public class PlayerBehaviour : MonoBehaviour
     public Vector3 jump;
     private Rigidbody rb = null;
     public TextMeshProUGUI message;
+    public Transform groundPoint;
+    private float time;
     
     // Start is called before the first frame update
     void Start()
@@ -33,10 +35,9 @@ public class PlayerBehaviour : MonoBehaviour
         jump = new Vector3(0.0f,2.0f,0.0f);
 
 
-        message.text = "Consejo: pulsa E para agarrar y Q para soltar.";
         
     }
-    private void OnCollisionStay(Collision collision)
+    /*private void OnCollisionStay(Collision collision)
     {
         OnGround = true;
     }
@@ -44,6 +45,7 @@ public class PlayerBehaviour : MonoBehaviour
     private void OnCollisionExit(Collision collision) {
         OnGround = false;
     }
+    */
 
     // Update is called once per frame
     void Update()
@@ -64,15 +66,34 @@ public class PlayerBehaviour : MonoBehaviour
             rb.AddForce(jump * JumpForce, ForceMode.Impulse);
             OnGround = false;
         }
+
+        time += Time.deltaTime;
+        message.text = "Tiempo:" + time.ToString("F2");
+    }
+
+    private void FixedUpdate()
+    {
+        //Debug.DrawRay(groundPoint.position, groundPoint.TransformDirection(Vector3.down) * 0.5f, Color.green);
+        if (Physics.Raycast(groundPoint.position, groundPoint.TransformDirection(Vector3.down), 0.5f))
+        {
+            OnGround = true;
+        }
+        else
+        {
+            OnGround = false;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Plane" || other.tag == "Enemy")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            transform.position = new Vector3(initialX,initialY,initialZ);
-            transform.eulerAngles = new Vector3(initialRotX, initialRotY, initialRotZ);
+            SceneManager.LoadScene("GameOver");
         }
+    }
+
+    private void OnDisable()
+    {
+        PlayerPrefs.SetFloat("time",time);
     }
 }
