@@ -17,6 +17,7 @@ public class PlayerBehaviour : MonoBehaviour
     private Rigidbody rb = null;
     public TextMeshProUGUI message;
     public Transform groundPoint;
+    private float time;
     
     // Start is called before the first frame update
     void Start()
@@ -34,19 +35,9 @@ public class PlayerBehaviour : MonoBehaviour
         jump = new Vector3(0.0f,2.0f,0.0f);
 
 
-        message.text = "Consejo: pulsa E para agarrar y Q para soltar.";
         
     }
-    /*private void OnCollisionStay(Collision collision)
-    {
-        OnGround = true;
-    }
-
-    private void OnCollisionExit(Collision collision) {
-        OnGround = false;
-    }
-    */
-
+   
     // Update is called once per frame
     void Update()
     {
@@ -66,6 +57,9 @@ public class PlayerBehaviour : MonoBehaviour
             rb.AddForce(jump * JumpForce, ForceMode.Impulse);
             OnGround = false;
         }
+
+        time += Time.deltaTime;
+        message.text = "Tiempo:" + time.ToString("F2");
     }
 
     private void FixedUpdate()
@@ -87,5 +81,10 @@ public class PlayerBehaviour : MonoBehaviour
         {
             SceneManager.LoadScene("GameOver");
         }
+    }
+
+    private void OnDisable()
+    {
+        PlayerPrefs.SetFloat("time",time);
     }
 }
