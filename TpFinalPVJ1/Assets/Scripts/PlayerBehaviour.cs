@@ -32,7 +32,7 @@ public class PlayerBehaviour : MonoBehaviour
         Cursor.visible = false;
 
         rb = this.GetComponent<Rigidbody>();
-        jump = new Vector3(0.0f,150.0f,0.0f);
+        jump = new Vector3(0.0f,2.0f,0.0f);
 
 
         
