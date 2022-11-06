@@ -37,16 +37,7 @@ public class PlayerBehaviour : MonoBehaviour
 
         
     }
-    /*private void OnCollisionStay(Collision collision)
-    {
-        OnGround = true;
-    }
-
-    private void OnCollisionExit(Collision collision) {
-        OnGround = false;
-    }
-    */
-
+   
     // Update is called once per frame
     void Update()
     {
