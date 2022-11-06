@@ -9,9 +9,9 @@ public class PlayerBehaviour : MonoBehaviour
 {
     public float initialX, initialY, initialZ;
     public float initialRotX, initialRotY, initialRotZ;
-    public float Speed = 1.0f;
+    public float Speed = 1.1f;
     public float RotationSpeed = 1.0f;
-    public float JumpForce = 1.0f;
+    public float JumpForce = 1.2f;
     public bool OnGround = true;
     public Vector3 jump;
     private Rigidbody rb = null;
@@ -32,7 +32,7 @@ public class PlayerBehaviour : MonoBehaviour
         Cursor.visible = false;
 
         rb = this.GetComponent<Rigidbody>();
-        jump = new Vector3(0.0f,2.0f,0.0f);
+        jump = new Vector3(0.0f,150.0f,0.0f);
 
 
         
