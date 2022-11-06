@@ -7,11 +7,13 @@ public class BoatBehaviour : MonoBehaviour
 {
     [SerializeField]
     private float chestCont = 0;
+    private AudioSource audioSource;
+    public AudioClip chestClip;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -29,6 +31,7 @@ public class BoatBehaviour : MonoBehaviour
         if (collision.gameObject.CompareTag("Chest"))
         {
             chestCont += 1;
+            audioSource.PlayOneShot(chestClip);
         }
     }
     private void OnCollisionExit(Collision collision)

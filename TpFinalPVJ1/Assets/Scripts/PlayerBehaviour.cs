@@ -18,7 +18,9 @@ public class PlayerBehaviour : MonoBehaviour
     public TextMeshProUGUI message;
     public Transform groundPoint;
     private float time;
-    
+    private AudioSource audioSource;
+    public AudioClip jumpClip;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,8 +36,8 @@ public class PlayerBehaviour : MonoBehaviour
         rb = this.GetComponent<Rigidbody>();
         jump = new Vector3(0.0f,2.0f,0.0f);
 
+        audioSource = GetComponent<AudioSource>();
 
-        
     }
    
     // Update is called once per frame
@@ -56,6 +58,7 @@ public class PlayerBehaviour : MonoBehaviour
         {
             rb.AddForce(jump * JumpForce, ForceMode.Impulse);
             OnGround = false;
+            audioSource.PlayOneShot(jumpClip);
         }
 
         time += Time.deltaTime;
