@@ -6,7 +6,7 @@ public class PlatformCorroutine : MonoBehaviour
 {
     public GameObject[] waypoints;
 
-    public float platformSpeed = 2;
+    public float platformSpeed = 1.3f;
 
     private int waypointsIndex = 0;
     private void Update()
