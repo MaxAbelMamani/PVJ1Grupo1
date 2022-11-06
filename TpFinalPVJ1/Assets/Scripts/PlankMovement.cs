@@ -6,10 +6,10 @@ public class PlankMovement : MonoBehaviour
 {
     [SerializeField]
     private float plankType;
-    private float speedYUp = 0.14f;
-    private float speedZUp = -1.5f;
-    private float speedYDown = -0.20f;
-    private float speedZDown = 1.5f;
+    private float speedYUp = 0.4f;
+    private float speedZUp = -2f;
+    private float speedYDown = -0.3f;
+    private float speedZDown = 2f;
 
     // Start is called before the first frame update
     void Start()
