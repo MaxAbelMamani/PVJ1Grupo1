@@ -1,13 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BoatBehaviour : MonoBehaviour
 {
     [SerializeField]
     private float chestCont = 0;
-    public GameObject finalMesagge;
-    public bool yes;
 
     // Start is called before the first frame update
     void Start()
@@ -21,8 +20,7 @@ public class BoatBehaviour : MonoBehaviour
         
         if (chestCont == 3)
         {
-            yes = true;
-            finalMesagge.gameObject.SetActive(yes);
+            SceneManager.LoadScene("Win");
         }
     }
 
@@ -31,7 +29,6 @@ public class BoatBehaviour : MonoBehaviour
         if (collision.gameObject.CompareTag("Chest"))
         {
             chestCont += 1;
-            finalMesagge.gameObject.SetActive(yes);
         }
     }
     private void OnCollisionExit(Collision collision)
@@ -39,7 +36,6 @@ public class BoatBehaviour : MonoBehaviour
         if (collision.gameObject.CompareTag("Chest"))
         {
             chestCont -= 1;
-            finalMesagge.gameObject.SetActive(yes);
         }
     }
 }
