@@ -262,7 +262,6 @@ GameObject:
   - component: {fileID: 4658821168928295353}
   - component: {fileID: 8634100672382765388}
   - component: {fileID: -7754916150220586146}
-  - component: {fileID: 8981445993369815863}
   - component: {fileID: -7963969796948870523}
   m_Layer: 0
   m_Name: ChestV1
@@ -369,19 +368,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &8981445993369815863
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6604398403984369772}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.74320006, y: 0.5, z: 0.5287699}
-  m_Center: {x: -0.37160003, y: 0.25, z: 0.21928793}
 --- !u!114 &-7963969796948870523
 MonoBehaviour:
   m_ObjectHideFlags: 0
