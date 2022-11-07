@@ -30,8 +30,6 @@ public class PlayerBehaviour : MonoBehaviour
         initialRotX = transform.eulerAngles.x;
         initialRotY = transform.eulerAngles.y;
         initialRotZ = transform.eulerAngles.z;
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
 
         rb = this.GetComponent<Rigidbody>();
         jump = new Vector3(0.0f,2.0f,0.0f);
